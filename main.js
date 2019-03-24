@@ -6,7 +6,10 @@ function calc() {
 
   var ab = length1.concat(length2);
 
-   var abc = ab.concat(length3) ;
+  var abc = ab.concat(length3) ;
 
+  var sorted = abc.sort(function (d, e) {
+return d - e;
+})
 
 }
