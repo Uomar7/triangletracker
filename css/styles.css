@@ -3,6 +3,8 @@ h1{
   font-family: times;
   font-size: 70px;
   text-align: center;
+  padding-top: 30px;
+
 }
 button{
   font-size: 30PX;
@@ -24,6 +26,8 @@ li{
 }
 #result{
   margin-top: 10px;
+  padding-top: 30px;
+  text-align: center;
 }
 .whole{
   text-align: center;
