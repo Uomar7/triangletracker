@@ -30,7 +30,7 @@ if(lengthab < c){
   respond = 'Equilateral Triangle'
   }else { respond = "Invalid measurements. Kindly re-evaluate your figures."};
 
-
+document.querySelector("#result").innerHTML = respond
 
 
 
