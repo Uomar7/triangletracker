@@ -28,7 +28,7 @@ else if(a === b && b === c && a > 0 && b > 0 && c > 0){
   respond = 'Your dimensions produce an Equilateral Triangle'
 }else if(a === b && b !== c || a !== b && b === c && a > 0 && b > 0 && c > 0){
   console.log('Your dimensions produce an Isosceles Triangle')
-  respond = 'Your dimensions produce an Isoceles Triangle'
+  respond = 'Your dimensions produce an Isosceles Triangle'
 }else if(a !== b && b!== c && (Number.isInteger(a) === true || Number.isInteger(b) === true || Number.isInteger(c) === true) && a > 0 && b > 0 && c > 0){
   console.log('Your dimensions produce a Scalene Triangle')
   respond = 'Your dimensions produce a Scalene Triangle'

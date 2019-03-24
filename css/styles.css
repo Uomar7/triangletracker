@@ -16,22 +16,49 @@ button{
 }
 body{
   background-image: url("../images/tri.jpg");
-  color: #b3b1b0;
   font-size: 32px;
   line-height: 40px;
 }
 li{
+  color:#b3b1b0;
   list-style: none;
   margin-top: 10px;
 }
 #result{
   margin-top: 10px;
   padding-top: 20px;
-  text-align: center;
+  text-align: left;
   height: 100px;
+  width: 600px;
   color: #FE2E2E;
+}
+.inputs{
+  margin-left: 150px;
+  margin-right: 0px;
+  border-right: 5px;
+  width: 500px;
+}
+p{
+  color:#b3b1b0;
+  margin-top: 0px;
+  margin-bottom: 4px;
 }
 .whole{
   text-align: center;
   margin: 10px 100px;
+}
+
+.image{
+  float: left;
+}
+.contacts{
+  font-size: 22px;
+  width: 700px;
+  margin-left: 200px;
+}
+@media and (min-width: 480px) {
+  body{
+    background-color: color: #FE2E2E;
+    color: black;
+  }
 }
