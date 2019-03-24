@@ -16,4 +16,15 @@ var a = sorted[0]
 var b = sorted[1]
 var c = sorted[2]
 
+var lengthab = a + b;
+
+var respond;
+
+
+
+
+
+
+
+
 }
