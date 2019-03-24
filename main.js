@@ -20,7 +20,9 @@ var lengthab = a + b;
 
 var respond;
 
-
+if(lengthab < c){
+  	respond = "ERROR! Not a triangle"
+  }
 
 
 
