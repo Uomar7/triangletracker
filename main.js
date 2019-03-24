@@ -25,7 +25,10 @@ if(lengthab < c){
   } else if(a === b && b !== c || a !== b && b === c && a > 0 && b > 0 && c > 0){
   console.log('Isosceles Triangle')
   respond = 'Isoceles Triangle'
-}
+  }else if(a === b && b === c && a > 0 && b > 0 && c > 0){
+  console.log('Equilateral Triangle')
+  respond = 'Equilateral Triangle'
+  }
 
 
 
