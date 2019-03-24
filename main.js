@@ -22,17 +22,19 @@ var respond;
 
 if(lengthab < c){
   	respond = "ERROR! Not a triangle"
-  } else if(a === b && b !== c || a !== b && b === c && a > 0 && b > 0 && c > 0){
-  console.log('Isosceles Triangle')
-  respond = 'Isoceles Triangle'
-  }else if(a === b && b === c && a > 0 && b > 0 && c > 0){
+  }
+else if(a === b && b === c && a > 0 && b > 0 && c > 0){
   console.log('Equilateral Triangle')
   respond = 'Equilateral Triangle'
-  }else { respond = "Invalid measurements. Kindly re-evaluate your figures."};
+}else if(a === b && b !== c || a !== b && b === c && a > 0 && b > 0 && c > 0){
+  console.log('Isosceles Triangle')
+  respond = 'Isoceles Triangle'
+}else if(a !== b && b!== c && (Number.isInteger(a) === true || Number.isInteger(b) === true || Number.isInteger(c) === true) && a > 0 && b > 0 && c > 0){
+  console.log('Scalene Triangle')
+  respond = 'Scalene Triangle'
+}else { respond = "Invalid measurements. Kindly re-evaluate your figures."};
+
 
 document.querySelector("#result").innerHTML = respond
-
-
-
 
 }
