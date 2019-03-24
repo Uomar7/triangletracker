@@ -14,9 +14,14 @@ button{
 body{
   background-image: url("../images/tri.jpg");
   color: #b3b1b0;
+  font-size: 32px;
+
 }
 li{
   list-style: none;
   margin-top: 10px;
 
+}
+#result{
+  background-size: 50px;
 }
