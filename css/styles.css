@@ -15,7 +15,7 @@ body{
   background-image: url("../images/tri.jpg");
   color: #b3b1b0;
   font-size: 32px;
-
+  line-height: 40px;
 }
 li{
   list-style: none;
@@ -23,5 +23,9 @@ li{
 
 }
 #result{
-  background-size: 50px;
+  margin-top: 10px;
+}
+.whole{
+  text-align: center;
+  margin: 10px 100px;
 }
