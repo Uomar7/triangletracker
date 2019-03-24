@@ -28,7 +28,8 @@ if(lengthab < c){
   }else if(a === b && b === c && a > 0 && b > 0 && c > 0){
   console.log('Equilateral Triangle')
   respond = 'Equilateral Triangle'
-  }
+  }else { respond = "Invalid measurements. Kindly re-evaluate your figures."};
+
 
 
 
