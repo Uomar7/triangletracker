@@ -23,13 +23,13 @@ body{
 li{
   list-style: none;
   margin-top: 10px;
-
 }
 #result{
   margin-top: 10px;
   padding-top: 20px;
   text-align: center;
   height: 100px;
+  color: #FE2E2E;
 }
 .whole{
   text-align: center;
