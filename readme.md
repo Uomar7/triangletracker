@@ -7,8 +7,15 @@ The website tells you if your figures produce an equilateral triangle, isosceles
 ## Setup/Installation Requirements
 For any modification of the website, you need an editor.
 Then you can fork and clone the entire project from your terminal by typing "git clone https://github.com/Uomar7/triangletracker.git"
-Then you can make any modification using your editor, preferably "Atom" or "Visual Studio Code"
+Then you can make any modification using your editor, preferably "Atom" or "Visual Studio Code".
 
+| Behavior                                    | input                            | output                                 |
+|---------------------------------------------|----------------------------------|----------------------------------------|
+| All sides  are equal                        |sideA=sideB=sideC                 | Equilateral triangle                   |
+| Two sides are equal                         |sideA=2, sideB=2, sideC=4         | Isosceles triangle                     |
+| None of the sides is equal                  |sideA=3, sideB=4, sideC=5         | Scalene triangle                       |
+| Two sides are greater than the third side   |sideA=8, sideB=6, sideC=3         | Scalene triangle                       |
+| Two sides are less than the third side      |sideA=4, sideB=3, sideC=9         | Not a triangle at all.                 |
 ## Technologies Used
 The website has used only three websites.
 HTML
